@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento:400i&display=swap');
+body, footer, header {
+    text-align: center;
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: url("/Image/Old_paper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #fff;
+}
+
+
+header {
+    left: 0;
+    right: 0;
+    top: 0;
+    position:fixed;
+    
+}
+
+.TopBar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFDB85;
+}
+.TopBar li {
+    float: left;
+    width:33.3%
+    
+}
+.TopBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    font-weight: 300;
+    font-size:230%;
+    text-decoration: none;
+    font-family: 'Fondamento', cursive;
+}
+
+.tripleImage {
+    left: 0;
+    right: 0;
+}
+
+.tripleImage img {
+    width:20%;
+    padding-left: 6.6%;
+    padding-right: 6.6%;
+    border-radius: 30%;
+}
+
+.tripleImage li {
+    width:33.3%;
+    text-align: center;
+    color: white;
+    display: block;
+    float: left;
+    font-size:150%;
+    
+
+}
+
+.tripleImage ul {
+    margin: 0;
+    padding: 0;
+    
+    
+    overflow: hidden;
+    
+}
+
+
+@media only screen and (max-width: 1900px)  {
+    .TopBar li a {
+        font-size:220%;
+        padding: 22px;
+    }
+    .tripleImage li {
+        font-size:170%;
+    }
+}
+
+@media only screen and (max-width: 1750px)  {
+    .TopBar li a {
+        font-size:210%;
+        padding: 21px;
+    }
+    
+}
+
+@media only screen and (max-width: 1600px)  {
+    .TopBar li a {
+        font-size:200%;
+        padding: 20px;
+    }
+    
+    
+    .tripleImage li {
+        font-size:160%;
+    }
+}
+
+@media only screen and (max-width: 1450px)  {
+    .TopBar li a {
+        font-size:190%;
+        padding: 19px;
+    }
+    
+}
+
+@media only screen and (max-width: 1300px)  {
+    .TopBar li a {
+        font-size:180%;
+        padding: 18px;
+    }
+    
+    .tripleImage li {
+        font-size:150%;
+    }
+}
+
+@media only screen and (max-width: 1150px)  {
+    .TopBar li a {
+        font-size:170%;
+        padding: 17px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px)  {
+    .TopBar li a {
+        font-size:160%;
+        padding: 16px;
+    }
+    
+
+    
+    .tripleImage li {
+        font-size:140%;
+    }
+}
+
+@media only screen and (max-width: 850px)  {
+    .TopBar li a {
+        font-size:145%;
+        padding: 15px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 700px)  {
+    .TopBar li a {
+        font-size:135%;
+        padding: 14px;
+    }
+    
+    .tripleImage li {
+        font-size:130%;
+    }
+}
+@media only screen and (max-width: 650px)  {
+    .TopBar li a {
+        font-size:125%;
+        padding: 13px;
+    }
+    
+    
+
+
+}
+@media only screen and (max-width: 600px)  {
+    .TopBar li a {
+        font-size:115%;
+        padding: 12px;
+    }
+}
+@media only screen and (max-width: 560px)  {
+    .TopBar li a {
+        font-size:105%;
+        padding: 11px;
+    }
+    .tripleImage li {
+        font-size:120%;
+    }
+    .tripleImage img {
+        padding-left: 6%;
+        padding-right: 6.6%;
+    }
+}
+@media only screen and (max-width: 520px)  {
+    .TopBar li a {
+        font-size:105%;
+        padding: 10px;
+    }
+
+}
+
+h1 {
+    text-align: center;
+    font-size:250%;
+    
+}
+
+
+.TopBar li a:hover:not(.active) {
+    background-color: #E8BC79;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.brakeTop {
+    display: block; 
+    margin-bottom: 5em;
+}
+.brakeBottem {
+    display: block; 
+    margin-bottom: 6em;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position:fixed;
+    background-color:  #FFC591;
+    color: #fff;
+}
